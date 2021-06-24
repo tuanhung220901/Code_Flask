@@ -4,68 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CodeFlask Test Page</title>
   <script src="codeflask.min.js"></script>
   <script src="prism.js"></script>
-  <script src="./app.js" type="module"></script>
   <link rel="stylesheet" href="app.css">
   <style>
     
   </style>
 </head>
 <body>
-  <h1 id="header1">Testing below:</h1>
-  <p>Here is a basic example of list slicing.</p>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Introduction</a></li>
+    <li><a href="#contact">Numbers</a></li>
+    <li><a href="#about">Operatos</a></li>
+    <li><a href="#about">List</a></li>
+    <li><a href="#about">List Slicing</a></li>
+    <li><a href="#about">Tuple</a></li>
+    <li><a href="#about">Set</a></li>
+    <li><a href="#about">String</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+    <li><a href="#about">Functions</a></li>
+  </ul>
   <div class="content">
-    <div class="test"></div>
-    <p class="space">
-      hung nefffffffffffffffffffffffffffffffffffffffffffff
-      fffffffffffffffffffffffffffffffffffffffffffffffffffff
-      ffffffffffffffffffffffffffffffffffffffffffffffffffffff
-      ffffffffffffffffffffffffffffffffffffffffffffffffffffff
-      ffffffffffffffffffffffff
-    </p>
-    <div class="test1"></div>
-    <p class="space">
-      hung nefffffffffffffffffffffffffffffffffffffffffffff
-      fffffffffffffffffffffffffffffffffffffffffffffffffffff
-      ffffffffffffffffffffffffffffffffffffffffffffffffffffff
-      ffffffffffffffffffffffffffffffffffffffffffffffffffffff
-      ffffffffffffffffffffffff
-    </p>
+    <div class = "header">
+      <h1 id="header1">Python List Slicing</h1>
+    </div>
+    <p class="space">To access a range of items in a <span style="color: #1A73E8;">list</span>, you need to slice a list. One way to do this is to use the 
+simple slicing operator :</p>
+<p class="space">With this operator you can specify where to start the slicing, where to end and specify the step.
+  </p>
+  <h2>Slicing a List</h2>
+  <p class="space">If L is a list, the expression L [ start : stop : step ] returns the portion of the list from index
+<a class="green">start</a> to index <a class="green">stop</a>, at a step size <a class="green">step</a>.</p>
+  <h3>Syntax</h3>
+  <div class="picture-1"></div>
+  <h3>Basic example</h3>
+  <p class="space">Here is a basic example of list slicing</p>
+    <div class="test" id="code-1"></div>
+    <div class="picture-2"></div>
+    <script src="./app.js"></script>
+    
+    
   </div>
-  <script>
-//   const flask = new CodeFlask('.test', {
-//     language: 'C++',
-//     lineNumbers: true,
-//     // areaId: 'thing1',
-//     // ariaLabelledby: 'header1',
-//     //handleTabs: true,
-//     readonly: true,
-//   });
-
-//   flask.updateCode(`L = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
-// print(L[2:7])
-// # Prints ['c', 'd', 'e', 'f', 'g']
-
-//   `);
-//   const flask1 = new CodeFlask('.test1', {
-//     language: 'C++',
-//     lineNumbers: true,
-//     // areaId: 'thing1',
-//     // ariaLabelledby: 'header1',
-//     //handleTabs: true,
-//     readonly: true,
-//   });
-
-//   flask1.updateCode(`L = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
-// print(L[2:7])
-// # Prints ['c', 'd', 'e', 'f', 'g']
-// hihi
-//   `);
-
-  </script>
 </body>
 </html>
